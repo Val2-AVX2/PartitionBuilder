@@ -40,8 +40,7 @@ namespace PartitionBuilder
             for (int i = 0; i < notes.Length; i++)
             {
                 string note = notes[i].Trim();
-                if (note == "_") continue;
-
+                
                 string file = FindImageFile(note);
                 if (file == null) continue;
 
